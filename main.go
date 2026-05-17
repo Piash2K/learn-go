@@ -25,16 +25,30 @@ func main() {
 
 	// var x, y int = 25, 30
 
-	var x, y string = "Piash ", "Islam"
+	// var x, y string = "Piash ", "Islam"
 
-	isAdmin := true
+	// isAdmin := true
 
 	// var name = "Piash Islam"
 	// fmt.Println(name)
 	// fmt.Println(age)
 
-	const pi = 3.14
+	// const pi = 3.14
 
-	fmt.Println(x, y, pi)
-	fmt.Println(isAdmin)
+	// fmt.Println(x, y, pi)
+	// fmt.Println(isAdmin)
+
+	// userName := "Piash"
+
+	// fmt.Println(userName)
+
+	var name string = "GO Lang"
+	var isActive bool = true
+	var age int = 26
+	var floatingNumber = 20.25
+
+	fmt.Println(name)
+	fmt.Println(isActive)
+	fmt.Println(age)
+	fmt.Println(floatingNumber)
 }
