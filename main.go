@@ -33,6 +33,8 @@ func main() {
 	// fmt.Println(name)
 	// fmt.Println(age)
 
-	fmt.Println(x, y)
+	const pi = 3.14
+
+	fmt.Println(x, y, pi)
 	fmt.Println(isAdmin)
 }
