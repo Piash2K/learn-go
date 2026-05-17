@@ -42,13 +42,25 @@ func main() {
 
 	// fmt.Println(userName)
 
-	var name string = "GO Lang"
-	var isActive bool = true
-	var age int = 26
-	var floatingNumber = 20.25
+	// var name string = "GO Lang"
+	// var isActive bool = true
+	// var age int = 26
+	// var floatingNumber = 20.25
 
-	fmt.Println(name)
-	fmt.Println(isActive)
-	fmt.Println(age)
-	fmt.Println(floatingNumber)
+	// fmt.Println(name)
+	// fmt.Println(isActive)
+	// fmt.Println(age)
+	// fmt.Println(floatingNumber)
+
+	var age int
+	fmt.Println(age) //0
+
+	var name string
+	fmt.Println(name) //" "
+
+	var isAdmin bool
+	fmt.Println(isAdmin) //false
+
+	var score float64
+	fmt.Println(score) //0
 }
