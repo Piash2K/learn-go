@@ -52,15 +52,27 @@ func main() {
 	// fmt.Println(age)
 	// fmt.Println(floatingNumber)
 
-	var age int
-	fmt.Println(age) //0
+	// var age int
+	// fmt.Println(age) //0
 
-	var name string
-	fmt.Println(name) //" "
+	// var name string
+	// fmt.Println(name) //" "
 
-	var isAdmin bool
-	fmt.Println(isAdmin) //false
+	// var isAdmin bool
+	// fmt.Println(isAdmin) //false
 
-	var score float64
-	fmt.Println(score) //0
+	// var score float64
+	// fmt.Println(score) //0
+
+	var name string = "next level"
+	// age := 18
+	rating := 4.5
+
+	// fmt.Println("My name is", name)
+
+	// fmt.Printf("My name is %s and I am %d years old with a rating of %.2f", name, age, rating)S
+
+	formattedString := fmt.Sprintf("My name is %s and my rating is %.2f", name, rating)
+	fmt.Println(formattedString)
+
 }
