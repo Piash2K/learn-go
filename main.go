@@ -2,9 +2,13 @@ package main
 
 import "fmt"
 
-func makeCoffee(kind string, isSugar bool) {
-	fmt.Printf("Making %s Coffee....... \n", kind)
-	fmt.Println("Sugar added", isSugar)
+// func makeCoffee(kind string, isSugar bool) {
+// 	fmt.Printf("Making %s Coffee....... \n", kind)
+// 	fmt.Println("Sugar added", isSugar)
+// }
+func makeCoffee(kind string) string {
+	coffee := fmt.Sprintf("%s Coffee!", kind)
+	return coffee
 }
 
 // isAdmin :=true   // short form does not work outside function
@@ -80,7 +84,9 @@ func main() {
 	// formattedString := fmt.Sprintf("My name is %s and my rating is %.2f", name, rating)
 	// fmt.Println(formattedString)
 
-	makeCoffee("Black", true)
-	makeCoffee("Cold", false)
+	myCoffee := makeCoffee("Black")
+	myCoffee2 := makeCoffee("Cold")
+	fmt.Println("I am having", myCoffee)
+	fmt.Println("I am having", myCoffee2)
 
 }
