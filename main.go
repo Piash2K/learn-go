@@ -6,9 +6,19 @@ import "fmt"
 // 	fmt.Printf("Making %s Coffee....... \n", kind)
 // 	fmt.Println("Sugar added", isSugar)
 // }
-func makeCoffee(kind string) string {
-	coffee := fmt.Sprintf("%s Coffee!", kind)
-	return coffee
+// func makeCoffee(kind string) string {
+// 	coffee := fmt.Sprintf("%s Coffee!", kind)
+// 	return coffee
+// }
+func makeCoffee(kind string) (coffee string, price int) {
+	// price := 25
+	// coffee := fmt.Sprintf("%s Coffee!", kind)
+	// return coffee, price
+
+	price = 25
+	coffee = fmt.Sprintf("%s Coffee", kind)
+	return //for named return no need to explicitly return variable name
+
 }
 
 // isAdmin :=true   // short form does not work outside function
@@ -84,9 +94,9 @@ func main() {
 	// formattedString := fmt.Sprintf("My name is %s and my rating is %.2f", name, rating)
 	// fmt.Println(formattedString)
 
-	myCoffee := makeCoffee("Black")
-	myCoffee2 := makeCoffee("Cold")
-	fmt.Println("I am having", myCoffee)
-	fmt.Println("I am having", myCoffee2)
+	myCoffee, myBill := makeCoffee("Black")
+	myCoffee2, myBill2 := makeCoffee("Cold")
+	fmt.Printf("I am having a %d$ %s ", myBill, myCoffee)
+	fmt.Printf("I am having  a %d$ %s", myBill2, myCoffee2)
 
 }
