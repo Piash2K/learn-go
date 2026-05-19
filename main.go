@@ -2,6 +2,11 @@ package main
 
 import "fmt"
 
+func makeCoffee(kind string, isSugar bool) {
+	fmt.Printf("Making %s Coffee....... \n", kind)
+	fmt.Println("Sugar added", isSugar)
+}
+
 // isAdmin :=true   // short form does not work outside function
 
 func main() {
@@ -64,15 +69,18 @@ func main() {
 	// var score float64
 	// fmt.Println(score) //0
 
-	var name string = "next level"
+	// var name string = "next level"
 	// age := 18
-	rating := 4.5
+	// rating := 4.5
 
 	// fmt.Println("My name is", name)
 
 	// fmt.Printf("My name is %s and I am %d years old with a rating of %.2f", name, age, rating)S
 
-	formattedString := fmt.Sprintf("My name is %s and my rating is %.2f", name, rating)
-	fmt.Println(formattedString)
+	// formattedString := fmt.Sprintf("My name is %s and my rating is %.2f", name, rating)
+	// fmt.Println(formattedString)
+
+	makeCoffee("Black", true)
+	makeCoffee("Cold", false)
 
 }
