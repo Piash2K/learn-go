@@ -74,7 +74,3 @@ Piash Islam
 
 - GitHub: https://github.com/Piash2K
 - Portfolio: https://piash-islam.vercel.app/
-
----
-
-⭐ If you like this project, feel free to star the repository.
