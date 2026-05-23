@@ -122,7 +122,27 @@ func main() {
 
 	//IIFE
 
-	func(coffeeType string) {
-		fmt.Printf("Making %s Coffee", coffeeType)
-	}("Black")
+	// func(coffeeType string) {
+	// 	fmt.Printf("Making %s Coffee", coffeeType)
+	// }("Black")
+
+	sugar := 2
+
+	makeCoffee := func() {
+		coffee := "Black Coffee"
+		fmt.Printf("Making %s coffee with %d spoons of sugar \n", coffee, sugar)
+	}
+	makeCoffee()
+
+	x := 10
+	{
+		// x := 10
+		fmt.Println("Inside block", x)
+	}
+	// fmt.Print("Inside Scope:",x)  //error: x is not defined in this scope
+
+	fmt.Println("Outside block", x)
+
+	fmt.Println(sugar)
+	// fmt.Println(coffee) //error: coffee is not defined in this scope
 }
