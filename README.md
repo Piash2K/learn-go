@@ -74,3 +74,4 @@ Piash Islam
 
 - GitHub: https://github.com/Piash2K
 - Portfolio: https://piash-islam.vercel.app/
+- LinkedIn: https://www.linkedin.com/in/piash-islam-2k/
