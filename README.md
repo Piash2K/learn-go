@@ -1,4 +1,4 @@
-tft# 🚀 Learn Go
+# 🚀 Learn Go
 
 A simple repository for learning and practicing the Go programming language.
 
